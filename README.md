@@ -48,20 +48,27 @@ primary technical documentation for the tinyhouse
 ## Server  
 model: Raspberry Pi 5 8GB
 
-### Administraition
+## Administraition
 can be ssh(ed) into when connectet to TinyNet or TinyNet2G
 therefore use our computers Terminal and type  
 ```code
 ssh tinypi@192.168.188.42
 #and type in your Password
 ```
-afterward you can use the UNIX shell as you are use to
+afterward you can use the UNIX/bash shell as you are use to
+or switch to root with ```sudo su```
+
 
 HAss ans all other services run in docker containers, there config is in 
 ```code
 /opt/container-config
 ```
-everything can be configured here, through ```yml``` files all though most things can be configured in the [HomeassistantGUI](192.168.188.42:8123)
-that should be accessible through typing  ```192.168.188.42:8123```  into a browser (while being in Tiny Net)
-there you will have to login with your login credentials you will find those in 
-die smarte
+everything can be configured here, through ```yml``` files 
+all though most things can be configured in the web-interface [Homeassistant-gui](http://192.168.188.42:8123) or the Homeassistant-App
+that should be accessible through typing  ```http://192.168.188.42:8123```  into a browser (while being in TinyNet)
+there you will have to login with your login credentials you will find those in the Keepass-Datebase.
+
+## Router
+to administrate the router you are going to need the [WinBox-App](https://flathub.org/en/apps/com.mikrotik.WinBox)
+using this app you can log on to the Router while being in the Wifi-Network
+
