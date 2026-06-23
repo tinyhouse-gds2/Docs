@@ -43,7 +43,7 @@ primary technical documentation for the tinyhouse
 ```
 
 ## Lichtsteuerung
-[github](https://github.com/LostFlashlight/nec_over_wire)
+[LostFlashlight/nec_over_wire](https://github.com/LostFlashlight/nec_over_wire)
 
 ## Server  
 model: Raspberry Pi 5 8GB
