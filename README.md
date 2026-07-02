@@ -72,3 +72,10 @@ there you will have to login with your login credentials you will find those in 
 to administrate the router you are going to need the [WinBox-App](https://flathub.org/en/apps/com.mikrotik.WinBox)
 using this app you can log on to the Router while being in the Wifi-Network
 
+## Temperature Sensors
+The Temperature messuring assembly is implementend if from of two Sensors who are connected to one Raspberr Pi Pico W.
+Which is spulied with power through USB and communicates over <Wifi <IP/TCP <MQTT> > >.
+IT runs the follwing hadwrittenfireware: []
+[Dual_DS18B20_Temp_Sensor](https://github.com/LostFlashlight/Dual_DS18B20_Temp_Sensor)
+
+which are implemented as in the Tinyhouse and run the followning
