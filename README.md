@@ -50,7 +50,7 @@ model: Raspberry Pi 5 8GB
 
 ## Administraition
 can be ssh(ed) into when connectet to TinyNet or TinyNet2G
-therefore use our computers Terminal and type  
+therefore use your computers Terminal and type  
 ```code
 ssh tinypi@192.168.188.42
 #and type in your Password
